@@ -7,14 +7,14 @@ d={
 
 # A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns
 frameddata=pd.DataFrame(d)
-print(frameddata)
+# print(frameddata)
 
 # locate an element
 print(frameddata.loc[0]['id'])
 filtereddate=frameddata[frameddata['name']=='a']
 print(filtereddate)
 
-#remove none values 
+#To remove none values 
 # The inplace parameter in pandas allows you to modify the DataFrame or Series in place, without the need to assign the result to a new variable. 
 frameddata['name'].fillna('Phone',inplace=True)
 print(frameddata)
