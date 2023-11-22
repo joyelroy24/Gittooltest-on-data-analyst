@@ -10,7 +10,8 @@ frameddata=pd.DataFrame(d)
 # print(frameddata)
 # git feature branch
 #master checkout for merge
-#master merge conflict test
+#feture commit for conflict test
+
 
 # locate an element
 print(frameddata.loc[0]['id'])
