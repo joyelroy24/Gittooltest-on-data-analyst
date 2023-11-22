@@ -10,6 +10,7 @@ frameddata=pd.DataFrame(d)
 # print(frameddata)
 # git feature branch
 #master checkout for merge
+#feture commit for conflict test
 
 
 # locate an element
